@@ -1,0 +1,40 @@
+{
+  "name": "martify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test",
+    "db:seed": "node --env-file-if-exists=.env scripts/seed.mjs",
+    "db:reset": "node --env-file-if-exists=.env scripts/seed.mjs --reset"
+  },
+  "keywords": [
+    "marketplace",
+    "kenya",
+    "nextjs"
+  ],
+  "license": "MIT",
+  "description": "Martify — a multi-vendor marketplace for Kenya.",
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.11",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "jose": "^6.2.13",
+    "lucide-react": "^1.61.0",
+    "next": "^16.4.3",
+    "postgres": "^3.4.9",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
