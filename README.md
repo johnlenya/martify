@@ -5,6 +5,8 @@ A responsive multi-vendor marketplace for Kenya, built with Next.js, React, Tail
 > **This is a demonstration project, not a production marketplace.**
 > Payments are simulated. No real money moves, no card details are collected, and no customer funds are held. Seller and admin areas are currently read-only overview pages — the full management consoles are the next milestone. See [Payments and safety](#payments-and-safety).
 
+**Live demo:** [martify-omega.vercel.app](https://martify-omega.vercel.app) — hosted on Vercel with Neon PostgreSQL. Demo data is seeded; use the accounts in [Demo accounts](#demo-accounts). Payments remain simulated.
+
 ## Highlights
 
 - **Kenyan market by design** — KES pricing, county-based delivery, M-Pesa/card/cash-on-delivery checkout options, English and Swahili interface copy.
